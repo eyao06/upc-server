@@ -16,7 +16,6 @@ Other parts of this project:
 
 * Latest version of npm
 * A computer (I used Windows)
-* A Android device with 6.0 or higher
 * MongoDB (Database)
 * Express
 * React and React-Native
@@ -36,14 +35,18 @@ npm install
 ```
 npm start
 ```
-* On your browser type in the address (http://localhost:3000/products.json) to check if the server is working
+* On your browser type in the address http://localhost:3000/products.json to check if the server is working
 
 ### Installing Database
 
 #### MongoDB
  
-* Download and install MongoDB 
+* Download and install MongoDB
 * Make sure to download the Community Server and install the complete package
+```
+Here is the link
+https://www.mongodb.com/download-center?jmp=nav#community
+```
 * I used the default settings for everything when installing
 ```
 Hostname = localhost 
