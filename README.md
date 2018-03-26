@@ -6,6 +6,12 @@ A server for the UPC Scanning application and UPC Website
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+Other parts of this project:
+
+[upc-server](https://github.com/eyao06/upc-server)
+
+[upc-website](https://github.com/eyao06/upc-website)
+
 ### Prerequisites
 
 * Latest version of npm
@@ -37,23 +43,23 @@ npm start
 #### MongoDB
  
 * Download and install MongoDB 
-**Make sure to download the Community Server and install the complete package
+* Make sure to download the Community Server and install the complete package
 * I used the default settings for everything when installing
 ```
 Hostname = localhost 
 Port number = 27017
 ```
-*After installation, create directory \data in the root of you main drive (mines was my C:\) and then create a folder inside \data called db
+* After installation, create directory \data in the root of you main drive (mines was my C:\) and then create a folder inside \data called db
 ```
 Should look like this:
 C:\data\db
 ```
-*To run the database run the executable mongod.exe
+* To run the database run the executable mongod.exe
 ```
 Should be located here:
 C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
 ```
-*Make sure to run mongod.exe before starting the server
+* Make sure to run mongod.exe before starting the server
 
 #### Populating the database using RoboMongo (I used their Studio 3T version)
 *	We are going to use this to create a database on Mongo and then importing our initial data from the file products.json that is in our project root folder
@@ -67,10 +73,10 @@ C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
 *	Now we right click the newly added products database and click Import Collection
 *	Now we add the data from the file products.json
 *	To check if all went well
-**	Expand the products database or double click it
-**	Expand or double click Collections
-**	Double click products
-**  The data that was on the JSON file should now present itself on the right pane
+*	Expand the products database or double click it
+*	Expand or double click Collections
+*	Double click products
+* The data that was on the JSON file should now present itself on the right pane
 
 
 
