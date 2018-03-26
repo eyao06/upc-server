@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Other parts of this project:
 
-[upc-server](https://github.com/eyao06/upc-server)
+[upcScanner](https://github.com/eyao06/upcScanner)
 
 [upc-website](https://github.com/eyao06/upc-website)
 
@@ -21,32 +21,12 @@ Other parts of this project:
 * React and React-Native
 * Node.js (Most Current Version)
 
-### Installing
-
-* Download project
-* Extract project
-* Make sure database is running (instructions on database below)
-* Open command line in project directory
-* Install dependencies
-```
-npm install
-```
-* Run server
-```
-npm start
-```
-* On your browser type in the address http://localhost:3000/products.json to check if the server is working
-
 ### Installing Database
 
 #### MongoDB
  
-* Download and install MongoDB
-* Make sure to download the Community Server and install the complete package
-```
-Here is the link
-https://www.mongodb.com/download-center?jmp=nav#community
-```
+* Download and install MongoDB [Here](https://www.mongodb.com/download-center?jmp=nav#community)
+* Make sure to install the complete package
 * I used the default settings for everything when installing
 ```
 Hostname = localhost 
@@ -66,6 +46,7 @@ C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
 
 #### Populating the database using RoboMongo (I used their Studio 3T version)
 *	We are going to use this to create a database on Mongo and then importing our initial data from the file products.json that is in our project root folder
+* Download Studio 3T [Here](https://studio3t.com/download-now/) 
 * Run Studio 3T
 *	Click the Connect button (make sure database is already running)
 *	And then click the New Connection button on the top left
@@ -81,6 +62,21 @@ C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
 *	Double click products
 * The data that was on the JSON file should now present itself on the right pane
 
+### Installing Server
+
+* Download project
+* Extract project
+* Make sure database is installed and running first (instructions on this is further below)
+* Open command line in project directory
+* Install dependencies
+```
+npm install
+```
+* Run server
+```
+npm start
+```
+* On your browser type in the address http://localhost:3000/products.json to check if the server is working
 
 
 ## License
